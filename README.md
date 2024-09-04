@@ -1,53 +1,42 @@
-# Desafio: GuessIt!
+# GuessIt! - Um Jogo de Adivinhação em Kotlin
 
-## Objetivo
+## Descrição 🔎:
 
-Desenvolver uma aplicação Android onde o jogador deve adivinhar um número aleatório escolhido pela aplicação.
-O número será gerado aleatoriamente no intervalo de 1 a 25, e o usuário será solicitado a inserir o seu palpite.
-Este será o nosso **número misterioso**! :see_no_evil:
+- GuessIt! é um simples jogo para Android onde o usuário precisa adivinhar um número aleatório entre 1 e 25. A cada tentativa, o app fornece dicas sobre se o palpite está alto ou baixo.
+- O jogo criado em Kotlin com o intúito de aprimorar meus conhecimentos na linguagem e no desenvolvimento android.
 
-## Instruções
+## Funcionalidades ✅:
 
-- A aplicação deve gerar um número aleatório entre 1 e 25.
-- Um campo de entrada será usado para o usuário inserir o número.
-- O app deve conter dois botões:
-  - Um botão "Adivinhar" para validar a tentativa.
-  - Um botão "Jogar novamente" para reiniciar o jogo.
-- O aplicativo deverá exibir dicas sobre o palpite do jogado.
-- O usuário deverá acertar o número misterioso em no máximo 10 tentativas.
-- Caso seja enviado um valor inválido, uma mensagem de erro será exibida.
+* **Geração aleatória:** Um número aleatório é gerado no início de cada partida.
+* **Interface intuitiva:** Um campo de entrada para o palpite, botões para adivinhar e reiniciar, e um display para mostrar dicas e o número de tentativas restantes.
+* **Validação de entrada:** O app verifica se a entrada do usuário é um número válido.
+* **Limite de tentativas:** O jogador tem 10 tentativas para acertar o número.
+* **Mensagens informativas:** O app fornece feedback ao usuário sobre cada tentativa.
 
-## Requisitos
+## Tecnologias 💻:
 
-- O layout deve conter:
-  - Um elemento com o `id` configurado para `mainTextView`
-    - Exibir a mensagem **Adivinhe o número entre 1 e 25** no início do jogo
-    - Exibir a mensagem **Muito alto!** quando o palpite for maior que o número misterioso
-    - Exibir a mensagem **Muito baixo!** quando o palpite for menor que o número misterioso
-    - Exibir a mensagem **Parabéns! Você acertou.** quando o palpite for o número misterioso
-    - Exibir a mensagem **Que pena, você não acertou o número 1!** quando o jogador errar todas as tentativas
-  - Um elemento com id `guessNumberEditText` para o jogador inserir o palpite
-  - Um botão com o `id` configurado para `guessButton` com o texto **Adivinhar**
-    - Quando o jogo terminar, deverá ser desabilitado
-  - Um botão com o `id` configurado para `restartButton` com o texto **Jogar novamente**
-    - Só deverá ser exibido quando o jogo terminar
-  - Um elemento com o `id` configurado para `remainingAttemptsTextView` exibindo as tentativas restantes
-    - Exibir apenas depois da primeira tentativa
-    - Exibir a quantidade de tentativas restantes no formato `Tentativas restantes: 9`
-    - Na última tentativa, exibir o texto: `Última tentativa!`
-  - Um `TextView` invisível para exibir mensagens de erro (`errorMessageTextView`).
-  - Um elemento com o `id` configurado para `errorMessageTextView` para exibir os erros
-    - Exibir somente quando ocorrer o erro
-    - Exibir uma mensagem genérica: `Insira um valor válido!`
-- O número gerado deve ser aleatório sempre que o jogo for iniciado.
-- As mensagens devem ser exibidas após cada tentativa.
-- Após 10 tentativas erradas, o jogo deve exibir uma mensagem e permitir que o jogador reinicie o jogo.
-- Faça commits regulares no projeto conforme avança no desenvolvimento.
+* **Kotlin:** Linguagem principal para desenvolvimento.
+* **Android SDK:** Ferramentas e APIs para desenvolvimento Android.
 
-## Testes
+## Estrutura do Projeto 📂:
 
-O projeto possui testes unitários que podem ser utilizados para te ajudar a concluir o desafio!
+* **MainActivity.kt:** Classe principal que controla a lógica do jogo.
+* **activity_main.xml:** Layout da tela principal.
 
----
+## Como Jogar 🎮:
 
-Boa sorte e divirta-se desenvolvendo! :shipit:
+1. Insira um número no campo de texto.
+2. Clique em "Adivinhar".
+3. O jogo fornecerá dicas conforme as tentativas.
+4. Continue tentando até acertar ou esgotar as tentativas.
+5. Clique em "Jogar novamente" para iniciar uma nova partida.
+
+## Licença ⚖️:
+
+[![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Observações:
+
+* **Testes:** O projeto inclui testes unitários para garantir a qualidade do código.
+
+**Link para o repositório:** [https://github.com/brielpg/GuessIt-Kotlin]
