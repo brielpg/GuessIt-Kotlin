@@ -1,8 +1,8 @@
-# GuessIt! - Um Jogo de Adivinhação em Kotlin
+# GuessIt - Um Jogo de Adivinhação em Kotlin
 
 ## Descrição 🔎:
 
-- GuessIt! é um simples jogo para Android onde o usuário precisa adivinhar um número aleatório entre 1 e 25. A cada tentativa, o app fornece dicas sobre se o palpite está alto ou baixo.
+- GuessIt é um jogo para Android onde o usuário precisa adivinhar um número aleatório entre 1 e 25. A cada tentativa, o app fornece dicas sobre se o palpite está alto ou baixo.
 - O jogo criado em Kotlin com o intúito de aprimorar meus conhecimentos na linguagem e no desenvolvimento android.
 
 ## Funcionalidades ✅:
