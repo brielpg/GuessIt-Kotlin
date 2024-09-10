@@ -31,10 +31,6 @@
 4. Continue tentando até acertar ou esgotar as tentativas.
 5. Clique em "Jogar novamente" para iniciar uma nova partida.
 
-## Licença ⚖️:
-
-[![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 ## Observações:
 
 * **Testes:** O projeto inclui testes unitários para garantir a qualidade do código.
